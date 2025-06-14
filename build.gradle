@@ -18,7 +18,21 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter {
+            includeGroup "maven.modrinth"
+        }
+    }
 }
+
+
 
 base {
     archivesName = mod_id
@@ -112,6 +126,8 @@ configurations {
 }
 
 dependencies {
+    // Fusion
+    implementation "maven.modrinth:fusion-connected-textures:1.2.7b-neoforge-mc1.21"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
