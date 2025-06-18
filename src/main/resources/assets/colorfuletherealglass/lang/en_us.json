@@ -1,4 +1,21 @@
 {
-  "block.colorfuletherealglass.ethereal_glass_block": "Ethereal Glass",
-  "creativetab.colorfuletherealglass.colorful_ethereal_glass_items": "Colorful Ethereal Glass"
+  "creativetab.colorfuletherealglass.colorful_ethereal_glass_items": "Colorful Ethereal Glass",
+
+  "block.colorfuletherealglass.ethereal_glass": "Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_black": "Black Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_blue": "Blue Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_brown": "Brown Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_cyan": "Cyan Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_gray": "Gray Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_green": "Green Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_lightblue": "Light Blue Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_lightgray": "Light Gray Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_lime": "Lime Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_magenta": "Magenta Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_orange": "Orange Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_pink": "Pink Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_purple": "Purple Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_red": "Red Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_white": "White Ethereal Glass",
+  "block.colorfuletherealglass.ethereal_glass_yellow": "Yellow Ethereal Glass"
 }

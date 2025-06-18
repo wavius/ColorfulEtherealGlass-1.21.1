@@ -43,8 +43,24 @@ public class ColorfulEtherealGlass {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if(event.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
             event.accept(ModBlocks.ETHEREAL_GLASS_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_WHITE_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_LIGHTGRAY_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_GRAY_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_BLACK_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_BROWN_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_RED_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_ORANGE_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_YELLOW_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_LIME_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_GREEN_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_CYAN_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_LIGHTBLUE_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_BLUE_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_PURPLE_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_MAGENTA_BLOCK);
+            event.accept(ModBlocks.ETHEREAL_GLASS_PINK_BLOCK);
         }
     }
 
@@ -59,7 +75,24 @@ public class ColorfulEtherealGlass {
         public static void onClientSetup(FMLClientSetupEvent event) {
             // sets render type to cutout mipped
             // render_type in block's JSON is ignored by Fusion
+            // setRenderLayer is deprecated and needs to be changed
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_BLOCK.get(), RenderType.cutoutMipped());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_WHITE_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_LIGHTGRAY_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_GRAY_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_BLACK_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_BROWN_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_RED_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_ORANGE_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_YELLOW_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_LIME_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_GREEN_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_CYAN_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_LIGHTBLUE_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_BLUE_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_PURPLE_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_MAGENTA_BLOCK.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ETHEREAL_GLASS_PINK_BLOCK.get(), RenderType.translucent());
         }
     }
 }

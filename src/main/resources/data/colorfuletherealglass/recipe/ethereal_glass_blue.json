@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:glass"
+      "item": "colorfuletherealglass:ethereal_glass"
     },
     "B": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:blue_dye"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "colorfuletherealglass:ethereal_glass_block"
+    "id": "colorfuletherealglass:ethereal_glass_blue"
   }
 }

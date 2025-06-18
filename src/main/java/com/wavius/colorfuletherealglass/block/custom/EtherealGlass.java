@@ -1,8 +1,6 @@
 package com.wavius.colorfuletherealglass.block.custom;
 
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.BlockGetter;
@@ -12,14 +10,12 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.EntityCollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.neoforged.neoforge.client.ChunkRenderTypeSet;
-import net.neoforged.neoforge.client.model.data.ModelData;
 import org.jetbrains.annotations.NotNull;
 
 
-public class EtherealGlassBlock extends TransparentBlock {
+public class EtherealGlass extends TransparentBlock {
 
-    public EtherealGlassBlock(Properties properties) {
+    public EtherealGlass(Properties properties) {
         super(properties);
     }
 

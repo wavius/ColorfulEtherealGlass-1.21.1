@@ -1,0 +1,78 @@
+{
+  "type": "fusion:connecting",
+  "parent": "minecraft:block/cube_all",
+  "loader": "fusion:model",
+  "textures": {
+    "all": "colorfuletherealglass:block/ethereal_glass_lime"
+  },
+  "connections": [
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_black"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_blue"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_brown"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_cyan"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_gray"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_green"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_lightblue"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_lightgray"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_lime"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_magenta"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_orange"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_pink"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_purple"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_red"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_white"
+    },
+    {
+      "type": "match_block",
+      "block": "colorfuletherealglass:ethereal_glass_yellow"
+    }
+  ]
+}

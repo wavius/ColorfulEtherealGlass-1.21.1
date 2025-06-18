@@ -16,10 +16,26 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ColorfulEtherealGlass.MOD_ID);
 
     public static final Supplier<CreativeModeTab> COLORFUL_ETHEREAL_GLASS_ITEMS_TAB = CREATIVE_MODE_TAB.register("colorful_ethereal_glass_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ETHEREAL_GLASS_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ETHEREAL_GLASS_PURPLE_BLOCK.get()))
                     .title(Component.translatable("creativetab.colorfuletherealglass.colorful_ethereal_glass_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.ETHEREAL_GLASS_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_WHITE_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_LIGHTGRAY_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_GRAY_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_BLACK_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_BROWN_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_RED_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_ORANGE_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_YELLOW_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_LIME_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_GREEN_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_CYAN_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_LIGHTBLUE_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_BLUE_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_PURPLE_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_MAGENTA_BLOCK);
+                        output.accept(ModBlocks.ETHEREAL_GLASS_PINK_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

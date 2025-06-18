@@ -23,11 +23,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "colorfuletherealglass:ethereal_glass_block"
+          "name": "colorfuletherealglass:ethereal_glass_red"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "colorfuletherealglass:ethereal_glass_block"
+  "random_sequence": "colorfuletherealglass:ethereal_glass_red"
 }
