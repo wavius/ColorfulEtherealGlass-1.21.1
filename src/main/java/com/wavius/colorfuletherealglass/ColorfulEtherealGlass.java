@@ -5,6 +5,7 @@ import com.wavius.colorfuletherealglass.item.ModCreativeModeTabs;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.fml.config.ModConfig;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
