@@ -1,0 +1,13 @@
+{
+  "type": "fusion:connecting",
+  "parent": "minecraft:block/cube_all",
+  "loader": "fusion:model",
+  "textures": {
+    "all": "colorfulspectralglass:block/spectral_glass_blue"
+  },
+  "connections": [
+    {
+      "type": "is_same_block"
+    }
+  ]
+}
