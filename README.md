@@ -1,5 +1,5 @@
-<h3><span style="color: rgb(255, 255, 255);"><strong>Colorful Ethereal Glass</strong></span></h3>
-<p>Ethereal glass can be walked through by players but act as solid blocks for mobs.</p>
+<h3><span style="color: rgb(255, 255, 255);"><strong>Colorful Spectral Glass</strong></span></h3>
+<p>Spectral glass can be walked through by players but act as solid blocks for mobs.</p>
 <p>This mod adds all 16 vanilla dye colors of ethereal glass with clear glass textures.</p>
 <p>&nbsp;</p>
 <p><img src="https://media.forgecdn.net/attachments/description/null/description_120e10d6-da3a-428d-aae0-6c9e5fa0271d.png"></p>
